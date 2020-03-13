@@ -13,7 +13,7 @@ def summon_captain_planet (planeteer_calls)
 end
 
 def long_planeteer_calls (calls_long)
-  i = 0
+  i = []
   block_return_values = []
   while i < calls_long.length
     block_return_values <<  
