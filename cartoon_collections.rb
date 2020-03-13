@@ -35,4 +35,3 @@ def find_the_cheese(cheddar_cheese)
     true
   end
 end
-end
