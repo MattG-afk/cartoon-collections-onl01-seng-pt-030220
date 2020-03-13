@@ -30,7 +30,7 @@ def find_the_cheese(cheddar_cheese)
   end
  
   if block_return_values.include?(cheese_types)
-    cheese_types
+    block_return_values
   else
     nil
   end
