@@ -24,7 +24,7 @@ def long_planeteer_calls (calls_long)
   elsif block_return_values.include? (false)
     false
   else
-    true
+    false
   end
 end
 
