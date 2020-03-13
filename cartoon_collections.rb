@@ -19,7 +19,7 @@ def long_planeteer_calls (calls_long)
     block_return_values<< yield(calls_long[i])
   end
   if
-    calls_long.include? (true)
+    block_return_values.include? (true)
     true
   else
     false
