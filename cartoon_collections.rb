@@ -24,7 +24,7 @@ end
 
 def find_the_cheese(cheddar_cheese)
    cheese_types = ["cheddar", "gouda", "camembert"].select do |cheese|
-     
+     cheese.true?
   block_return_values = []
   while cheese_types == true
     block_return_values << yield(cheddar_cheese[cheese_types])
