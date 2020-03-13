@@ -27,8 +27,8 @@ def find_the_cheese(cheddar_cheese)
     cheese_types.find do |cheese|
       if cheese_types.include? (cheese)
         true
-      else
-        return nil
+      elsif cheese_types.include? (no_cheese)
+        nil
       end
   end
 end
