@@ -14,16 +14,16 @@ end
 
 def long_planeteer_calls (calls_long)
   i=0
-  block_return_values = []
-  while i >= calls_long.length 
-    block_return_values<< yield(calls_long[i])
+   calls_long.each do |call|
+     if call.length > 4
+       return true
+       
+     else
+       false
+       
+    
   end
-  if
-    block_return_values.include? (true)
-    true
-  else
-    false
-  end
+end
 end
 
 def find_the_cheese# code an argument here
