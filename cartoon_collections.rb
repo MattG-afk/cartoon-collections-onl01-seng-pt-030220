@@ -31,7 +31,7 @@ def find_the_cheese(cheddar_cheese)
     block_return_values << yield(cheddar_cheese[cheese_types])
   end
  
-  if block_return_values.include?(cheese_types)
+  if block_return_values.include?(true)
     block_return_values
   else
     nil
