@@ -24,10 +24,6 @@ end
 
 def find_the_cheese(cheddar_cheese)
    cheese_types = ["cheddar", "gouda", "camembert"]
-  block_return_values = []
-  while cheese_types == true
-    block_return_values << yield(cheddar_cheese[cheese_types])
-  end
  
   if block_return_values.include?(cheese_types)
     block_return_values
