@@ -28,7 +28,6 @@ def find_the_cheese(cheddar_cheese)
       if cheese == true
         true
       end
-  else
     nil
   end
 end
