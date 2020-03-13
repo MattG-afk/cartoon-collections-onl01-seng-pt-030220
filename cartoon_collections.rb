@@ -25,8 +25,8 @@ end
 def find_the_cheese(cheddar_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   block_return_values = []
-  while cheese_types < collection.length
-    block_return_values << yield(collection[cheese_types])
+  while cheese_types < cheddar_cheese.length
+    block_return_values << yield(cheddar_cheese[cheese_types])
   end
  
   if block_return_values.include?(false)
