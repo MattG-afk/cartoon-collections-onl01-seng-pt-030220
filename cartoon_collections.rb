@@ -25,5 +25,9 @@ end
 def find_the_cheese(cheddar_cheese)
    cheese_types = ["cheddar", "gouda", "camembert"]
  
-  cheddar_types.find? {|i| i.true?}
+  if block_return_values.include?(c)
+    cheese_types
+  else
+    nil
+  end
 end
